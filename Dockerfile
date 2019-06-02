@@ -89,5 +89,3 @@ WORKDIR ${JDART_DIR}
 RUN git clone https://github.com/psycopaths/jdart.git 
 WORKDIR ${JDART_DIR}/jdart
 RUN ant
-
-CMD ["/jdart-project/jpf-core/bin/jpf"]
